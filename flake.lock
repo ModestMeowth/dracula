@@ -1,7 +1,24 @@
 {
   "nodes": {
+    "k9s": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1717861169,
+        "narHash": "sha256-MSdPP4/2fukLb4dBFe1lUH6ZIxWPBQdw9bqj3boillg=",
+        "owner": "derailed",
+        "repo": "k9s",
+        "rev": "c4ff75c81a1dff06ba897ba119acef8dc5893778",
+        "type": "github"
+      },
+      "original": {
+        "owner": "derailed",
+        "repo": "k9s",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
+        "k9s": "k9s",
         "sublime": "sublime",
         "wezterm": "wezterm",
         "zellij": "zellij"
