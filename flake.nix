@@ -13,10 +13,11 @@
     k9s.flake = false;
   };
 
-  outputs = { ... } @inputs: {
-    k9s = "${inputs.k9s}";
-    sublime = "${inputs.sublime}";
-    wezterm = "${inputs.wezterm}";
-    zellij = "${inputs.zellij}";
+  outputs = {self, ...} @ inputs: with inputs; {
+    bat = "${sublime}/Dracula.tmTheme";
+    k9s = "${k9s}/skins/dracula.yaml";
+    sublime = self.bat;
+    wezterm = "${wezterm}/dracula.toml";
+    zellij = "${zellij}/dracula.kdl";
   };
 }
