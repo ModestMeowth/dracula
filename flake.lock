@@ -3,11 +3,11 @@
     "k9s": {
       "flake": false,
       "locked": {
-        "lastModified": 1731258534,
-        "narHash": "sha256-jJHlFrnyvGZ0/ykmZRbSAFwzvN0j2dqddLEQoiv3oys=",
+        "lastModified": 1731599812,
+        "narHash": "sha256-a7iWu/jzdpACF6LUPVgkBxHnGVXWHUI4W2JwfjTP39s=",
         "owner": "derailed",
         "repo": "k9s",
-        "rev": "9984e3f4bfa0b88a4c0ae62cd69b61f80b7ce3c2",
+        "rev": "92ff64eac3814d0ba5614782a4c2e1162c4c8a19",
         "type": "github"
       },
       "original": {
